@@ -1,5 +1,5 @@
 ## Olá pessoal 👋
-
+<img src="imagens/octocat.png">
 ✨✨
 <! --
 Aqui estão algumas idéias para você começar:
@@ -14,6 +14,7 @@ Aqui estão algumas idéias para você começar:
 - ⚡ Curiosidade: ...
 
 -->
+
 ## Contatos:
 
 <div>
