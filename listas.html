@@ -101,10 +101,37 @@
             );
         }
 
+        #i1 {
+            text-decoration: overline;
+        }
+
+        #i2 {
+            text-decoration: line-through;
+        }
+
+        #i3 {
+            text-decoration: underline;
+        }
+
+        .i4 {
+            text-decoration: underline overline;
+        }
     </style>
 </head>
 <body>
-    <p> A <em> B </em> <strong> C </strong> </p>
+    <p> 
+        <b> A </b>
+        <i> B </i>
+        <em> C </em> 
+        <strong> D </strong>
+        <s> E </s>
+        <mark> F </mark>
+        <pre> G </pre>
+        <code> H </code>
+        <blockquote> I </blockquote>
+        <sup> J </sup>
+        <sub> K </sub>
+    </p>
 <!-- Lista desordernada -->
     <h1>Cores</h1>
     <hr>
@@ -113,7 +140,7 @@
         <li id="pre-definidas">Cores pré-definidas</li>
         <li id="current-color">Palavra-chave "current-color"</li>
         <li id="hex">Hexadecimal</li>
-        <li id="hex-transparencia">Hexadecimal com tranparencia</li>
+        <li id="hex-transparencia">Hexadecimal com <span class="i4">tranparencia</span></li>
         <li id="rgb">RGB</li>
         <li id="rgba">RGBA</li>
         <li id="hsl">HSL</li>
@@ -123,9 +150,10 @@
 <!-- *DICA: digitar 'li*x' x=qnt de linhas  -->
 <!-- Lista ordernada -->
     <ol>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li id="i1">This is</li>
+        <li id="i2">This is</li>
+        <li id="i3">This is</li>
+        <li class="i4">This is</li>
     </ol>
 
     <h2>Propriedade <code>object-fit</code></h2>
